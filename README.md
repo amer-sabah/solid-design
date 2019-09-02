@@ -1,2 +1,2 @@
 # solid-design
-SOLID Design Drinciples
+SOLID Design Principles
