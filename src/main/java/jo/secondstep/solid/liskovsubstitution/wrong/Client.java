@@ -14,7 +14,7 @@ public class Client {
 		cars.add(new PetrolCar());
 		cars.add(new PetrolCar());
 		cars.add(new ElectricCar());
-
+		
 		for (Car car : cars) {
 			engineTester.testEngine(car);
 		}

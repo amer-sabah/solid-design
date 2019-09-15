@@ -24,7 +24,7 @@ public class ElectricCar implements Car {
 			throw new RuntimeException("Invalid energy provider");
 		}
 
-		batteryLevel += energyProvider.provideEnergy(time);
+		batteryLevel += ((ElectricEnergy) energyProvider.provideEnergy(time)).getAmpereHours();
 	}
 
 }

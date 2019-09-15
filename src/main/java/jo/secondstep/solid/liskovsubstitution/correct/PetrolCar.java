@@ -24,6 +24,6 @@ public class PetrolCar implements Car {
 			throw new RuntimeException("Invalid energy provider");
 		}
 
-		petrolLevel += energyProvider.provideEnergy(time);
+		petrolLevel += ((PetrolEnergy)energyProvider.provideEnergy(time)).getLiters();
 	}
 }

@@ -3,15 +3,12 @@ package jo.secondstep.solid.liskovsubstitution.correct;
 public class ElectricEnergy implements Energy {
 
 	private int ampereHours;
-
-	@Override
-	public boolean hasEnergy() {
-		return ampereHours > 0;
+	
+	public ElectricEnergy(int ampereHours) {
+		this.ampereHours = ampereHours;
 	}
 
-	@Override
-	public int getValue() {
+	public int getAmpereHours() {
 		return ampereHours;
 	}
-
 }
