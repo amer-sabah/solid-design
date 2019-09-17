@@ -1,6 +1,6 @@
 package jo.secondstep.solid.interfacesegregation.correct;
 
-public class T23MetroTrain extends BasicMetroTrain implements DriverControlledMetroTrain {
+public class T23MetroTrain extends BasicMetroTrain implements DriverControlled {
 	
 	private Driver driver;
 

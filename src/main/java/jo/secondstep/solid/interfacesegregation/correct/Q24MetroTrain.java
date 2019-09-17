@@ -1,6 +1,6 @@
 package jo.secondstep.solid.interfacesegregation.correct;
 
-public class Q24MetroTrain extends BasicMetroTrain implements DriverlessMetroTrain, WifiProvider {
+public class Q24MetroTrain extends BasicMetroTrain implements Driverless, WifiProvider {
 
 	@Override
 	public int getMaxSpeed() {

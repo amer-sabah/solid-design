@@ -1,6 +1,6 @@
 package jo.secondstep.solid.interfacesegregation.correct;
 
-public interface DriverControlledMetroTrain extends MetroTrain {
+public interface DriverControlled {
 
 	public Driver getDriver();
 	
