@@ -9,7 +9,7 @@ public class Client {
 
 		Company secondStepCompany = new Company();
 
-		GrillMarkFood food = secondStepCompany.orderFood("12 Zinger Sandwich");
+		GrillMarkFood food = secondStepCompany.orderFood("12 Zinger Sandwichs");
 
 		System.out.println(food);
 	}

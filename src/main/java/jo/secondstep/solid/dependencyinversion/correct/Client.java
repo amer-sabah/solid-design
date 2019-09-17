@@ -15,7 +15,7 @@ public class Client {
 
 		secondStepCompany.setFoodProvider(foodProvider);
 
-		Food food = secondStepCompany.orderFood("12 Zinger Sandwich");
+		Food food = secondStepCompany.orderFood("12 Zinger Sandwichs");
 
 		System.out.println(food);
 	}
